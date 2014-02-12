@@ -5,8 +5,8 @@ Environment/System: AWS Engineering AMI (Linux AMI)
 
 ####What is JQ?
 
-It is a command-line *JSON processor*. It is used to slice and *filter* and
-map and *transform structured data* with the same ease that sed, awk, grep
+It is a command-line **JSON processor**. It is used to slice and **filter** and
+map and **transform structured data** with the same ease that sed, awk, grep
 
 
 ####Installation
