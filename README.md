@@ -64,6 +64,9 @@ Other variants
 curl 'https://s3.amazonaws.com/jqdemo/jqdemo.txt' | jq  '.config | .regions[] |.instanceTypes[] |. sizes[] |select(.size=="m1.small") | [.size,.vCPU,.ECU,.memoryGiB,.storageGB,(.valueColumns[] |.prices |.USD)] | @csv'
 ```
 
+####Wnat to know more?
+
+jq can do a lot more!! Please check http://stedolan.github.io/jq/manual/
 
 
 
@@ -107,3 +110,5 @@ JSON Snippet
                                 ]
                             }
 '''
+
+
