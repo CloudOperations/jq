@@ -24,10 +24,8 @@ The PATH is an environment variable. It is a colon delimited list of directories
 
 ####Now Let's play
 
-SAMPLE OF A JSON FILE
-https://s3.amazonaws.com/jqdemo/jqdemo.txt
-
-(Taken from http://aws-assets-pricing-prod.s3.amazonaws.com/pricing/ec2/linux-od.js - EC2 on-demand pricing JSON document for Linux)
+*[Sample of JSON file](https://s3.amazonaws.com/jqdemo/jqdemo.txt)*
+*([Reference](http://aws-assets-pricing-prod.s3.amazonaws.com/pricing/ec2/linux-od.js))*
 
 1- Check the file format
 ```
