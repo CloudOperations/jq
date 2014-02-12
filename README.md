@@ -1,7 +1,7 @@
 jq
 ==
 
-System: Tested on Mac 10.8.5
+Environment/System: AWS Engineering AMI (Linux AMI)
 
 ####What is JQ?
 
