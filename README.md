@@ -13,7 +13,7 @@ map and **transform structured data** with the same ease that sed, awk, grep
 ```
 wget http://stedolan.github.io/jq/download/linux64/jq
 chmod +x ./jq
-export PATH=${PATH}:$pwd`
+export PATH=${PATH}:$pwd
 ```
 
 The PATH is an environment variable. It is a colon delimited list of directories that your shell searches through when you enter a command. 
