@@ -53,7 +53,7 @@ curl 'https://s3.amazonaws.com/jqdemo/jqdemo.txt' | jq '.config | .regions[] |.i
 ```
 curl 'https://s3.amazonaws.com/jqdemo/jqdemo.txt' | jq '.config | .regions[] |.instanceTypes[] |. sizes[] |select(.size=="m1.small") |.valueColumns[] |.prices |.USD'
 ```
-5- add more details (more columns) to #4  
+5- Add more details (more columns) to #4  
 ```
 curl 'https://s3.amazonaws.com/jqdemo/jqdemo.txt' | jq -r ".config | .regions[] |.instanceTypes[] |. sizes[] |select(.size=="\"m1.small"\") | [.size,.vCPU,.ECU,.memoryGiB,.storageGB,(.valueColumns[] |.prices |.USD)] | @csv"
 ```
@@ -62,7 +62,7 @@ Other variants
 curl 'https://s3.amazonaws.com/jqdemo/jqdemo.txt' | jq  '.config | .regions[] |.instanceTypes[] |. sizes[] |select(.size=="m1.small") | [.size,.vCPU,.ECU,.memoryGiB,.storageGB,(.valueColumns[] |.prices |.USD)] | @csv'
 ```
 
-####Wnat to know more?
+####Want to know more?
 
 jq can do a lot more!! Please check http://stedolan.github.io/jq/manual/
 
